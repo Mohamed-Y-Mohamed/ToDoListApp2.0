@@ -1,7 +1,7 @@
 # To-Do List Application
 
 This Java-based To-Do List application allows users to create, edit, delete, and manage tasks with additional security features. The application uses JavaFX for the user interface and includes persistent storage with encryption to ensure data security.
-
+![Alt text](image1.png)
 ## Features
 
 - **Add Task:** Users can add tasks with a title, description, and due date.
