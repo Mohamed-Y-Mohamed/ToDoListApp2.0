@@ -77,7 +77,7 @@ public class ToDoListApp extends Application {
             dialog.setHeaderText("Edit Task Title");
             dialog.setContentText("New title:");
 
-            dialog.showAndWait().ifPresent(newTitle -> selectedTask.setTitle(newTitle));
+            dialog.showAndWait().ifPresent(selectedTask::setTitle);
 
             TextArea descriptionArea = new TextArea(selectedTask.getDescription());
             descriptionArea.setPromptText("Edit Description");
